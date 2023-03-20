@@ -31,6 +31,9 @@ docker login --username [username on ACR] --password [password on ACR] [Login se
 docker push sentimentv1.azurecr.io/demo:v1
 ```
 
+* Container iamge treen ACR sau khi được push lên 
+![ACR](https://user-images.githubusercontent.com/103992475/226248571-5a93c7c8-761d-41a4-9e6c-fb64fb1961fe.png)
+
 ## 3. Tạo App Service trên Azure
 * Vào App Services trên Azure để tạo app với ***Instance Details*** chọn là *Docker Container*
 * App sau khi tạo trên Azure 
