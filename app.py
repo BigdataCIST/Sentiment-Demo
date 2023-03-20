@@ -25,7 +25,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    #return render_template(os.path.join(path, 'templates/home.html'))
     return render_template('home.html')
 
 
@@ -50,6 +49,4 @@ def predict_api():
 
 
 if __name__ == '__main__':
-    # sentence = 'Đây là mô_hình rất hay , phù_hợp với điều_kiện và như cầu của nhiều người .' 
-    # result = _predict(sentence)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0')
