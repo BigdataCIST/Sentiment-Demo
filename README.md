@@ -8,7 +8,7 @@ docker build -t sentimentv1.azurecr.io/demo:v1  .
 
 * Chạy container 
 ```
-docker run -p 5000:500 sentimentv1.azurecr.io/demo:v1
+docker run -p 5000:5000 sentimentv1.azurecr.io/demo:v1
 ```
 
 * Truy cập vào web tại local
