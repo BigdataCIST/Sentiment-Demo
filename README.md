@@ -24,6 +24,9 @@ http://localhost:5000/
 docker login --username [username on ACR] --password [password on ACR] [Login server]
 ```
 
+
+ > * Lưu ý: Thông tin để login in ACR lấy trong Access keys của ACR cần login
+
 * Push container image lên ACR 
 ```
 docker push sentimentv1.azurecr.io/demo:v1
