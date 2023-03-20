@@ -11,7 +11,7 @@ docker build -t sentimentv1.azurecr.io/demo:v1  .
 docker run -p 5000:500 sentimentv1.azurecr.io/demo:v1
 ```
 
-* Truy cập vào web 
+* Truy cập vào web tại local
 ```
 http://localhost:5000/
 ```
