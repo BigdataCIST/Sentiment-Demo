@@ -24,5 +24,10 @@ http://localhost:5000/
 docker login --username [username on ACR] --password [password on ACR] [Login server]
 ```
 
+* Push container image lên ACR 
+```
+docker push sentimentv1.azurecr.io/demo:v1
+```
+
 ## 3. Đẩy container image từ local pc lên Azure Container Registry
 
