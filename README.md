@@ -35,3 +35,13 @@ docker push sentimentv1.azurecr.io/demo:v1
 * Vào App Services trên Azure để tạo app với ***Instance Details*** chọn là *Docker Container*
 * App sau khi tạo trên Azure 
 ![FlaskApp](https://user-images.githubusercontent.com/103992475/226247328-e630c793-e1fe-454f-a022-466dab0da694.png)
+
+* Truy cập vào web app theo url:
+```
+https://sentimentflaskapp.azurewebsites.net/
+```
+
+* Kết quả thu được
+![SentimentApp](https://user-images.githubusercontent.com/103992475/226247710-4f63beb6-3ccc-4e15-8824-94e738a1e757.png)
+
+
