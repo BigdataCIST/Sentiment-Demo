@@ -20,12 +20,11 @@ http://localhost:5000/
 * **Azure CLI:** là một cross-platform command-line tool có thể được cài đặt trên các máy tính cá nhân. Sử dụng Azure CLI để kết nối tới Azure và thực thi các lệnh quản trị (execute administrative commands) trên Azure resources. [Cài đặt Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
 
 * Login vào Azure Container Registry từ local 
+
+  * Lưu ý: Thông tin để login in ACR lấy trong Access keys của ACR cần login
 ```
 docker login --username [username on ACR] --password [password on ACR] [Login server]
 ```
-
-
- > * Lưu ý: Thông tin để login in ACR lấy trong Access keys của ACR cần login
 
 * Push container image lên ACR 
 ```
