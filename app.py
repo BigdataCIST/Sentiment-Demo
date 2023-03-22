@@ -20,7 +20,7 @@ def _predict(sentence):
         'neutral': result[0][2]
     }
 
-# API definition
+# App
 app = Flask(__name__)
 
 @app.route('/')
