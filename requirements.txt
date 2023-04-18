@@ -3,3 +3,5 @@ transformers
 Flask
 psycopg2
 ipython
+cloud-sql-python-connector
+SQLAlchemy==2.0.7
